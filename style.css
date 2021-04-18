@@ -1,0 +1,35 @@
+/*search-box*/
+.kyc-search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 550px;
+    border-radius: 30px;
+    border: solid 1px #dcdcdc;
+}
+    
+.kyc-search-box{
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+i#kyc-search-mark{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #9aa0a6;
+}
+
+i#kyc-search-mic{
+    margin-right: 10px;
+    cursor: pointer;
+    color: #9aa0a6;
+}
+
+@media only screen and (max-width:480px){
+    .kyc-search-bar{
+        width: 100%;
+    }
+}
